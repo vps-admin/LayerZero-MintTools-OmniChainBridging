@@ -45,7 +45,7 @@ Options:
   -V, --version                output the version number
   --ci                         Run in CI (non-interactive) mode (default: false)
   -d,--destination <path>      Project directory
-  -e,--example <name>          Example project (choices: "oft", "oapp")
+  -e,--example <name>          Example project (choices: "oft", "oapp", "onft721")
   --log-level <level>          Log level (choices: "error", "warn", "info", "http", "verbose", "debug", "silly", default: "info")
   -p,--package-manager <name>  Node package manager to use (choices: "npm", "yarn", "pnpm", "bun")
   -h, --help                   display help for command

@@ -25,6 +25,13 @@ export const EXAMPLES: Example[] = [
         ref,
     },
     {
+        id: 'onft721',
+        label: 'ONFT721',
+        repository,
+        directory: 'examples/onft721',
+        ref,
+    },
+    {
         id: 'oapp',
         label: 'OApp',
         repository,
