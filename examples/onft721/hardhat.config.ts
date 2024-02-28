@@ -6,9 +6,11 @@
 import 'dotenv/config'
 
 import 'hardhat-deploy'
+import 'hardhat-deploy-ethers'
 import 'hardhat-contract-sizer'
 import '@nomiclabs/hardhat-ethers'
 import '@layerzerolabs/toolbox-hardhat'
+import './tasks'
 import { HardhatUserConfig, HttpNetworkAccountsUserConfig } from 'hardhat/types'
 
 import { EndpointId } from '@layerzerolabs/lz-definitions'

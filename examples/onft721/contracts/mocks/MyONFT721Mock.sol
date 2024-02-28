@@ -4,7 +4,7 @@ pragma solidity ^0.8.22;
 import { MyONFT721 } from "../MyONFT721.sol";
 
 // @dev WARNING: This is for testing purposes only
-contract MyOFTMock is MyONFT721 {
+contract MyONFT721Mock is MyONFT721 {
     constructor(
         string memory _name,
         string memory _symbol,

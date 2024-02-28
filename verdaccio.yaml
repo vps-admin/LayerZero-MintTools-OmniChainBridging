@@ -62,7 +62,7 @@ packages:
 
   # And we will not proxy create-lz-oapp
   "create-lz-oapp": *local-package-rules
-
+  # TODO: add build-lz-options and verify-contracts
   # The rest of the packages we'll proxy to the public NPM repo
   "**":
     <<: *local-package-rules
